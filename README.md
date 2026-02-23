@@ -1,9 +1,5 @@
 # ML-Driven Predictive Analysis for Loans
 
-- **Fatima Mahmood**
-- **Danni Zhang**
-- **Romet Vislapuu**
-
 ## Project Overview
 This project applies machine learning (ML) techniques to predict loan approval outcomes based on demographic, financial, and credit-related features. The goal is to classify whether a loan application is approved or denied by analyzing synthetic data inspired by real-world credit and financial datasets.
 
@@ -69,16 +65,6 @@ We began by removing outliers, such as loan applicants with ages exceeding 100 y
 ### Feature Engineering
 Finally, we converted categorical variables like “Education” and “Loan_intent” into numerical values or dummy variables.
 
-## Setup Instructions
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/fatima97mahmood/loan-approval-prediction.git
-2. Install dependencies: You can install the necessary dependencies using pip:
-   ```bash
-   pip install -r requirements.txt
-3. Run the Jupyter Notebook: Open the Loan_Approval_Prediction.ipynb Jupyter notebook to start the analysis:
-   ```bash
-   jupyter notebook Loan_Approval_Prediction.ipynb
 
 ## Model Persistence with Pickle
 
@@ -107,10 +93,3 @@ We evaluate the performance of the models based on the following metrics:
 - **Recall**: Measures the proportion of actual positives that were correctly identified.
 - **F1-Score**: Harmonic mean of Precision and Recall, giving a balanced evaluation of both metrics.
 
-## Contributions
-
-- **Fatima Mahmood**: Focused on implementing and tuning Neural Networks and XGBoost models.
-- **Danni Zhang**: Worked on Logistic Regression and SVM, and model evaluation.
-- **Romet Vislapuu**: Implemented Decision Tree and Random Forest.
-
-All members worked on business and data understanding, visualizations, and feature engineering.
